@@ -1,0 +1,23 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "share": "disabled",
+  "default_agent": "plan",
+  "experimental": {
+    "disable_paste_summary": true,
+  },
+  "permission": {
+    "bash": {
+      // git
+      "git *": "deny",
+      "git status *": "allow",
+      "git diff *": "allow",
+      // npm
+      "npm *": "deny",
+      "npm run tsc": "allow",
+      "npm run test": "allow",
+      "npm run lint": "allow",
+      // npx
+      "npx *": "deny"
+    }
+  }
+}
