@@ -43,7 +43,7 @@ Since we already did chaining to verify the concatenation works, we can just add
 This would be wrong, and would result in a test case that handles multiple units, and that can break for more than one reason.
 
 **Rule of thumb**
-This separation concept can be boiled down to: if the name of the test case includes the word "and", you are probably writing two test cases into one and should reconsider the cases.
+This separation concept can be boiled down to: if the name of the test case includes the word "and", you are probably writing two test cases into one and should reconsider the case.
 
 
 ## Brevity and reuse

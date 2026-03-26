@@ -13,6 +13,8 @@
       "git diff *": "allow",
       // npm
       "npm *": "deny",
+      "npm install": "allow",
+      "npm install *": "ask",
       "npm run tsc": "allow",
       "npm run test": "allow",
       "npm run lint": "allow",
