@@ -1,6 +1,6 @@
 ---
 name: unit-test
-description: This simple outline of how to write pretty and efficient unit tests must be used whenever we work with unit testing.
+description: This simple outline of how to write pretty and efficient unit tests must be used whenever writing unit testing.
 ---
 
 # Core testing values

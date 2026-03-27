@@ -1,6 +1,7 @@
 ---
 name: implementer
 description: Implements code according to a given task or specification.
+color: accent
 mode: subagent
 ---
 
