@@ -27,6 +27,7 @@ This summary should concisely outline your findings.
 
 When reviewing architecture, you should ensure that component landscape and underlying tooling is complete and robust before being used to implement features.
 When finding code patterns or structures that exists in the project already, it is advisable to replace such occurrences with reusable abstractions.
+When finding excessive patterns, abusive function calls, or convoluted structures, it is advisable to replaced them with abstractions that serve to better express the purpose of the code.
 You should always take tests and their results into account when reviewing an implementation. Tests are not always required, but if they exist, they must pass.
 
 Code should have a large focus on reusability and sensible abstraction/code extraction.
@@ -42,3 +43,11 @@ Less code is better than more code and simplicity is better than complexity.
 You must report even the smallest discrepancies and optimizations you find.
 You should not appraise the value of an improvement but report all potential improvements.
 
+
+## Human involvement
+
+You should be mindful of when decision making is part of arriving at a correct solution.
+Sometimes the entire decision tree has not been hashed out, in which case the human developer must be consulted.
+
+In other cases the decision can be implied from the current state of the system, and it should be suggested as the course of action.
+Only when you can arrive at a verifiably correct answer are you allowed to make decisions about the best approach to implementation.

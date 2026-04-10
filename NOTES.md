@@ -1,15 +1,7 @@
-# Notes
-
-Going fast is dangerous. (going slower than manual coding is discouraged)
-Code requires domain knowledge.
-Generated code is "cognitive debt" until it is understood by a human.
-Core focus: Cognitive debt
-
-
-## Buildable project scope
+# Buildable project scope
 
 Add package.json to pre-define all dependencies, e.g. "state-of-the-art" frontend frameworks and tools.
-Code style must be declared. Probably should include a .prettierrc out of the box.
+Code style must be declared. Should probably include a .prettierrc out of the box.
 Implement very simple outline code that sets up React with a baseline to start from.
 
 
@@ -51,3 +43,4 @@ Never carry out a plan in the same pass as creating a plan, unless specifically 
 ## TODO
 
 Include agent report outline for agents that should return work reports.
+Declare an "audit" label that is used for general code auditing without conflicting with the "review" term.
