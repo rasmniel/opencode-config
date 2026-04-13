@@ -127,6 +127,10 @@ Worked on by the implementer.
 For tasks that relate to writing tests specifically.
 Worked on by the tester.
 
+**Audit**
+For tasks that outline structural reviews of the codebase, reserved for overarching issues that must be analyzed thoroughly.
+Worked on by the reviewer.
+
 **Human-in-the-loop**
 For tasks that must not be undertaken without close interaction with a human developer.
 Worked on by the implementor.
@@ -147,7 +151,7 @@ There is no need to report these repeated, unblocking errors as incidents unless
 Beads commands should only be used and controlled by you.
 You should attempt to fix errors arising from use of these commands yourself.
 Only if errors are severely blocking and unsolvable from the CLI you have access to, should you let me know about the issues with Beads commands.
-You should _not_ include Beads commands as part of reports or summaries.
+You should _never_ include Beads commands e.g. `bd ...` as part of reports or summaries.
 
 
 ## Summary
@@ -163,7 +167,7 @@ Do not include empty of redundant sections.
 - Tasks that have been discovered during the work.
 
 **Commands**
-- Commands used to verify the result.
+- Commands used by the agents to verify the result of the implementation.
 - If a given command didn't succeed include a brief description of why.
 
 **Incidents**
@@ -172,7 +176,7 @@ Do not include empty of redundant sections.
 
 Keep each overview section separate.
 
-Refrain from adding comments and preambles to the summary that don't add new information.
+Refrain from adding comments and preambles to the summary that don't include new information.
 The summary should only be long enough to provide accurate description of the work results.
 
 You should list tasks by their respective ID, title, and label(s) such that the overview is easily readable but also useful for looking up details for a given task.
@@ -184,7 +188,7 @@ When interacting with agents, you should _not_ use the summary format.
 Neither should you suggest that agents use this format.
 
 You must provide accurate and detailed information based on the given task the agent should work on.
-You must include the task's identification so the agent can further investigate the task on demand.
+You must include the task's identification so the agent can further examine the task on demand.
 
 Upon completion of a task, you must inquire the agent about specifics related to completeness of the task with respect to the task's description.
 You must ensure the task is actually and completely done. If it is not, provide an explanation to the agent of what is missing so they can finish the work.

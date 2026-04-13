@@ -8,8 +8,10 @@ Walk down each branch of the design tree, resolving dependencies between decisio
 For each question, suggest your recommended answer.
 
 If a question can be answered by exploring the codebase, do so instead.
+This process is intended to improve the project specification by ensuring it is complete and concise.
 
+Ask only one single question at a time to avoid overwhelming the user.
 Ask questions inline as part of the output text.
 Do not use any tools available for asking questions during interrogation.
-When providing suggestions, label them with appropriate identifiers, e.g. indices.
+When providing multiple suggestions, label them with appropriate identifiers, e.g. indices.
 

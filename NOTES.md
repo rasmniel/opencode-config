@@ -5,17 +5,13 @@ Code style must be declared. Should probably include a .prettierrc out of the bo
 Implement very simple outline code that sets up React with a baseline to start from.
 
 
-# Process outline
-1. Produce a set of tasks describing a feature or multiple features.
-    - Includes interrogation session.
-    - Label all tasks according to their domain, e.g. feature development, tests, bug fixes, etc.
-2. Orchestrate a set of task completions using the programmer agent.
-    - The programmer agent should work on only a single task at a time before the reviewer parses the change.
-3. Parse all implementations with the reviewer agent to make sure quality is good and level of abstraction is acceptable.a
-    - If it is not, new tasks will be produced to cover discrepancies.
+# Agents
+
+Consider an interrogation agent to help with task clarification and definition specifically with the purpose of interrogating.
+This is to avoid having interrogation inside the context after the resulting task has been created.
 
 
-## Beads tasks
+# Beads tasks
 
 Documentation is not planning and planning is not documentation.
 Planning is a process in which we produce an outline of what should be written to file.
@@ -34,13 +30,8 @@ naming conventions for issues
 whether the agent may auto-close issues
 whether to prefer bugs/tasks/epics in a certain way
 
-Never carry out a plan in the same pass as creating a plan, unless specifically instructed.
-- Tasks and plans should be produced in a single pass.
-- They must then be verified, and ONLY then you will be explicitly instructed to implement them.
-- This process can never implicitly be executed in full in a single prompt exchange.
 
-
-## TODO
+# TODO
 
 Include agent report outline for agents that should return work reports.
-Declare an "audit" label that is used for general code auditing without conflicting with the "review" term.
+
