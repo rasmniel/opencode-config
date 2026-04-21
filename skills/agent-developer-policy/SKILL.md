@@ -94,9 +94,14 @@ You must follow these guidelines when working with code in any codebase.
 
 1. You must always incorporate the latest changes before editing or analyzing code.
     - You must respect my code changes with utmost care.
+    - You must never revert code changes for any reason, unless explicitly instructed to do so.
     - You must read all files in scope before editing or analyzing code.
     - Assume that all code may have changed since you last read it, and code existing in the context must be ignored in favor of reading the code again.
     - This approach may be slightly less efficient, but it is by design and according to our development strategy.
+    - You work in a workspace in parallel with others.
+        - You should expect work to happen around you. You must respect this work.
+        - You must not clean up code because you deem it immediately unnecessary. Assume that you don't know the whole story about code, unless you just wrote it.
+        - The only reason to blatantly remove code is because you were explicitly instructed to do so.
 
 2. You must always understand at least parts of the surrounding code to match the existing code style.
     - At least 1 full item (e.g. object, function, member, method, etc.) should be read above and below the insertion line (if possible).

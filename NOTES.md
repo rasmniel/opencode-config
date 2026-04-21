@@ -11,7 +11,7 @@ Consider an interrogation agent to help with task clarification and definition s
 This is to avoid having interrogation inside the context after the resulting task has been created.
 
 
-# Beads tasks
+# tasks
 
 Documentation is not planning and planning is not documentation.
 Planning is a process in which we produce an outline of what should be written to file.
@@ -25,7 +25,7 @@ Conceptual tasks containing broad outlines or general explanations should be res
 
 You must NEVER close tasks with `--force`. If you think a task should be closed that is blocked by another task, consult the developer.
 
-whether every bug fix must create a Beads issue first
+whether every bug fix must create an issue first
 naming conventions for issues
 whether the agent may auto-close issues
 whether to prefer bugs/tasks/epics in a certain way
@@ -34,4 +34,6 @@ whether to prefer bugs/tasks/epics in a certain way
 # TODO
 
 Include agent report outline for agents that should return work reports.
+Include a distinction between findings and incidents to clearly outline what should be reported.
 
+Implement Taskmaster skill and use as a replacement for the task management part of the orchestrator.
