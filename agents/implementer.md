@@ -65,7 +65,7 @@ When you have completed and verified the task, you should briefly report what yo
 If the task could not be correctly completed without deteriorating behavior, you must report it as a blocking incident instead of degrading the implementation.
 
 
-## dots 
+## dots
 
 Your task will be provided to you briefly, including an ID of the task.
 Before you start work, you should consult the concise description of the task using the following command template.
